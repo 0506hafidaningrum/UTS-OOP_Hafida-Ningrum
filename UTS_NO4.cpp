@@ -82,14 +82,10 @@ int main() {
     mhs.tambahMataKuliah("OOP", 90);
     mhs.tambahMataKuliah("AI", 85);
     mhs.tambahMataKuliah("Basis Data", 92);
-
-    mhs.tampilkanCatatanAkademik();
-    mhs.hitungRataRataNilai();
-
     mhs.hapusMataKuliah("Basis Data");
-
     mhs.tampilkanCatatanAkademik();
     mhs.hitungRataRataNilai();
+
 
     return 0;
 }
