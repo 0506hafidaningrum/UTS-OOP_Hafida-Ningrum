@@ -28,8 +28,8 @@ int main() {
 
     std::cout << "Panjang: " << persegi.getPanjang() << std::endl;
     std::cout << "Lebar: " << persegi.getLebar() << std::endl;
-    std::cout << "Luas: " << persegi.hitungLuas() << std::endl;
-    std::cout << "Keliling: " << persegi.hitungKeliling() << std::endl;
+    std::cout << "Luas Persegi Panjang: " << persegi.hitungLuas() << std::endl;
+    std::cout << "Keliling Persegi Panjang: " << persegi.hitungKeliling() << std::endl;
 
     return 0;
 }

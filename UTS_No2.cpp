@@ -31,10 +31,12 @@ int main() {
     Tabung tabung;
 
     // Mengatur property objek
-    tabung.setJariJari(2.0);
-    tabung.setTinggi(2.0);
+    tabung.setJariJari(2);
+    tabung.setTinggi(2);
 
     // Menghitung dan menampilkan volume dan luas permukaan
+    std::cout << "Jari Jari: " << tabung.getJariJari() << std::endl;
+    std::cout << "Tinggi: " << tabung.getTinggi() << std::endl;
     std::cout << "Volume tabung: " << tabung.hitungVolume() << std::endl;
     std::cout << "Luas permukaan tabung: " << tabung.hitungLuasPermukaan() << std::endl;
 
